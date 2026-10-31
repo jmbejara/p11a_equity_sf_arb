@@ -1,8 +1,8 @@
-[theme]
-logo_path = "assets/logo.png"
-favicon_path = ""
-
-[site]
-title = "Blank Project Template"
-author = "Jeremy Bejarano"
+[project]
+name = "Blank Project Template"
+maintainer = "Jeremy Bejarano"
 copyright = "2025"
+requires_chartbook = ">=0.4.0"
+
+[scripts]
+build = "doit"
